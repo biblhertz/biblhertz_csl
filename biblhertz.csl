@@ -121,3 +121,62 @@
       <key macro="author"/>
     </sort>
     <layout delimiter=", ">
+      <group delimiter=":">
+        <group delimiter=" ">
+          <text macro="contributors-short"/>
+          <text macro="date-reference"/>
+        </group>
+        <text macro="point-locators"/>
+      </group>
+    </layout>
+  </citation>
+  <bibliography and="text" et-al-min="12" et-al-use-first="6">
+    <sort>
+      <key macro="author"/>
+      <key variable="issued" sort="ascending"/>
+    </sort>
+    <layout>
+      <group delimiter=" ">
+        <text macro="author"/>
+        <text macro="title" suffix="."/>
+        <choose>
+          <if type="bill book graphic legal_case motion_picture report song" match="any">
+            <text macro="edition" prefix=" " suffix=","/>
+            <text macro="publisher" prefix=" " suffix="."/>
+          </if>
+          <else-if type="chapter paper-conference article-journal article article-magazine article-newspaper" match="any">
+            <group delimiter=" ">
+              <group delimiter=", ">
+                <group delimiter=": ">
+                  <text term="in" text-case="lowercase"/>
+                  <text variable="container-title" font-style="italic"/>
+                </group>
+                <text variable="volume"/>
+                <text macro="edition"/>
+                <text macro="editor"/>
+                <text macro="publisher" prefix=" "/>
+              </group>
+              <group delimiter=" ">
+                <label strip-periods="true" variable="page" form="short"/>
+                <text variable="page"/>
+              </group>
+              <group>
+                <text variable="URL" prefix="URL: "/>
+              </group>
+            </group>
+          </else-if>
+          <else>
+            <group delimiter=" ">
+              <text variable="container-title" form="short" strip-periods="false" font-style="italic" suffix=" "/>
+              <group delimiter=", ">
+                <text variable="volume" font-weight="bold"/>
+                <text variable="page"/>
+              </group>
+            </group>
+          </else>
+        </choose>
+      </group>
+      <text macro="access"/>
+    </layout>
+  </bibliography>
+</style>
