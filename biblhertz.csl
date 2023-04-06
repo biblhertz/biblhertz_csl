@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-06T09:25:43+00:00</updated>
+    <updated>2023-04-06T09:40:10+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -143,6 +143,11 @@
           <if type="bill book graphic legal_case motion_picture report song" match="any">
             <text macro="edition" prefix=" " suffix=","/>
             <text macro="publisher" prefix=" " suffix="."/>
+            <choose>
+              <if match="any" variable="volume">
+                <text variable="volume" prefix="Vol. "/>
+              </if>
+            </choose>
           </if>
           <else-if type="chapter paper-conference article-journal article article-magazine article-newspaper" match="any">
             <group delimiter=" ">
@@ -157,7 +162,7 @@
                 <text macro="publisher" prefix=" "/>
               </group>
               <group delimiter=" ">
-                <label strip-periods="true" variable="page" form="short"/>
+                <label strip-periods="true" suffix="." variable="page" form="short"/>
                 <text variable="page"/>
               </group>
               <group>
