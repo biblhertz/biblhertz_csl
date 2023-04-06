@@ -1,0 +1,431 @@
+[
+	{
+		"id": "Schwab.2019",
+		"type": "book",
+		"collection-title": "Quellen und Untersuchungen zur lateinischen Philologie des Mittelalters",
+		"event-place": "Stuttgart",
+		"ISBN": "978-3-7772-1908-0",
+		"language": "de-DE",
+		"publisher": "Hiersemann",
+		"publisher-place": "Stuttgart",
+		"title": "Antike begreifen: Antiquarische Texte und Praktiken in Rom von Francesco Petrarca bis Bartolomeo Marliano",
+		"volume": "22",
+		"author": [
+			{
+				"family": "Schwab",
+				"given": "Maren Elisabeth"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Aphthonius.1926",
+		"type": "book",
+		"collection-title": "Rhetores Graeci",
+		"event-place": "Leipzig",
+		"language": "de-DE",
+		"publisher": "Teubner",
+		"publisher-place": "Leipzig",
+		"title": "Aphthonii Progymnasmata",
+		"volume": "10",
+		"author": [
+			{
+				"literal": "Aphthonius"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1926"
+				]
+			]
+		}
+	},
+	{
+		"id": "Clavuot.1990",
+		"type": "book",
+		"collection-title": "Bibliothek des Deutschen Historischen Instituts in Rom",
+		"event-place": "Tübingen",
+		"ISBN": "3-484-82069-1",
+		"language": "de-DE",
+		"publisher": "Niemeyer",
+		"publisher-place": "Tübingen",
+		"title": "Biondos “Italia illustrata” - Summa oder Neuschöpfung: Über die Arbeitsmethoden eines Humanisten",
+		"volume": "69",
+		"author": [
+			{
+				"family": "Clavuot",
+				"given": "Ottavio"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1990"
+				]
+			]
+		}
+	},
+	{
+		"id": "Blondus.1559",
+		"type": "book",
+		"event-place": "Basel",
+		"language": "it-IT",
+		"note": "original-date: 1531",
+		"publisher": "Frobenius & Episcopius",
+		"publisher-place": "Basel",
+		"title": "Blondi Flavii Forliviensis De Roma Trivmphante Lib. X Priscorvm Scriptorvm Lectoribus utilissimi, ad totiusq[ue] Romanæ antiquitatis cognitionem pernecessarij. Romae instauratæ Libri III. De Origine ac gestis Venetorum liber. Italia Illustrata, siue Lustrata (nam uterq[ue] titulus doctis placet) in regions seu prouincias diuisa XVIII. Historiarvm ab inclinato Ro. imperio, Decades III",
+		"URL": "https://transkribus.humanitiesconnect.pub/#/documents/856971",
+		"author": [
+			{
+				"family": "Biondo",
+				"given": "Flavio"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1559"
+				]
+			]
+		}
+	},
+	{
+		"id": "Biondo.2017",
+		"type": "book",
+		"collection-number": "4.3",
+		"collection-title": "Edizione nazionale delle opere di Biondo Flavio",
+		"event-place": "Roma",
+		"ISBN": "978-88-98079-63-6",
+		"language": "it-IT",
+		"number-of-volumes": "3",
+		"publisher": "Istituto storico italiano per il Medio Evo",
+		"publisher-place": "Roma",
+		"title": "Italia Illustrata",
+		"volume": "3",
+		"author": [
+			{
+				"family": "Biondo",
+				"given": "Flavio"
+			}
+		],
+		"editor": [
+			{
+				"family": "Pontari",
+				"given": "Paolo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "Biondo.2014",
+		"type": "book",
+		"collection-number": "4.2",
+		"collection-title": "Edizione nazionale delle opere di Biondo Flavio",
+		"event-place": "Roma",
+		"ISBN": "978-88-98079-18-6",
+		"language": "it-IT",
+		"number-of-volumes": "3",
+		"publisher": "Istituto storico italiano per il Medio Evo",
+		"publisher-place": "Roma",
+		"title": "Italia Illustrata",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Biondo",
+				"given": "Flavio"
+			}
+		],
+		"editor": [
+			{
+				"family": "Paolo",
+				"given": "Pontari"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2014"
+				]
+			]
+		}
+	},
+	{
+		"id": "Biondo.2011",
+		"type": "book",
+		"collection-number": "4.1",
+		"collection-title": "Edizione nazionale delle opere di Biondo Flavio",
+		"event-place": "Roma",
+		"ISBN": "978-88-89190-87-6",
+		"language": "it-IT",
+		"number-of-volumes": "3",
+		"publisher": "Istituto storico italiano per il Medio Evo",
+		"publisher-place": "Roma",
+		"title": "Italia Illustrata",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Biondo",
+				"given": "Flavio"
+			}
+		],
+		"editor": [
+			{
+				"family": "Paolo",
+				"given": "Pontari"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "Biondo.2005b",
+		"type": "book",
+		"abstract": "Biondo Flavio (1392-1463), humanist and historian, was a pioneering figure in the Renaissance recovery of classical antiquity. While serving a number of the Renaissance popes, he inaugurated an extraordinary program of research into the history, institutions, cultural life, and physical remains of the ancient Roman empire. The Italia Illustrata (1453), which appears here for the first time in English, is a topographical work describing Italy region by region. Its aim is to explore the Roman roots of the Renaissance world. As such, it is the quintessential work of Renaissance anti-quarianism. This is the first edition of the Latin text since 1559.",
+		"collection-number": "20",
+		"collection-title": "I Tatti Renaissance library",
+		"event-place": "Cambridge, Mass.",
+		"ISBN": "978-0-674-01743-9",
+		"language": "en-US",
+		"publisher": "Harvard University Press",
+		"publisher-place": "Cambridge, Mass.",
+		"title": "Italy Illuminated: Books I-IV",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Biondo",
+				"given": "Flavio"
+			}
+		],
+		"editor": [
+			{
+				"family": "White",
+				"given": "Jeffrey A."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		}
+	},
+	{
+		"id": "Robert.2003",
+		"type": "book",
+		"abstract": "Der deutsche ’Erzhumanist’ Konrad Celtis (1459–1508) ist einer der großen Archegeten der neueren deutschen Literaturgeschichte. Durch seine lyrischen Zyklen (Oden, Elegien, Epigramme) wie durch seinen lebenslangen Einsatz für die studia humanitatis wird der erste gekrönte Dichter auf deutschem Boden zur Schlüsselfigur des Humanismus nördlich der Alpen. Ein Jahrhundert vor Opitz unternimmt er den wegweisenden Versuch, im Anschluß an Tendenzen des italienischen Humanismus antike Gattungen, Diskurse und Geselligkeitsformen systematisch in die deutsche Literatur einzuführen. So ist Celtis nicht nur Autor der ersten humanistischen Poetik (Ars versificandi et carminum), er legt mit den Amores (Nürnberg 1502) auch den ersten bedeutenden Zyklus neulateinischer Dichtung in Deutschland vor, dessen Initialwirkung für die Folgezeit kaum zu überschätzen ist. Ziel der Studie ist es, Celtis’ Projekt einer deutschen Dichtung lateinischer Sprache umfassend vor seinem geistes- und literarhistorischen Horizont nachzuzeichnen. Von der Ars versificandi über die Ingolstädter Rede bis zu den Amores werden dabei erstmals alle bedeutenden Texte und Bilddokumente in einer systematischen, diskursorientierten Monographie erfaßt. In ihrem Mittelpunkt steht der große Zyklus von Liebeselegien (Amores), der nach seinen wichtigsten Aspekten (Gattungsfragen, Nationaldiskurs, lyrische Selbstdarstellung) untersucht wird. Auf diese Weise zeichnen sich Konturen eines Werkes ab, das als Gründungsdokument der neueren deutschen Literatur gelten kann.",
+		"collection-title": "Frühe Neuzeit",
+		"event-place": "Tübingen",
+		"ISBN": "978-3-484-36576-6",
+		"language": "de-DE",
+		"publisher": "Max Niemeyer Verlag",
+		"publisher-place": "Tübingen",
+		"title": "Konrad Celtis und das Projekt der deutschen Dichtung: Studien zur humanistischen Konstitution von Poetik, Philosophie, Nation und Ich",
+		"volume": "76",
+		"author": [
+			{
+				"family": "Robert",
+				"given": "Jörg"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2003"
+				]
+			]
+		}
+	},
+	{
+		"id": "Menandros.1981",
+		"type": "book",
+		"event-place": "Oxford",
+		"language": "en-GB",
+		"publisher": "Clarendon Press",
+		"publisher-place": "Oxford",
+		"title": "Menander Rhetor",
+		"author": [
+			{
+				"literal": "Menander Laodicensis"
+			}
+		],
+		"editor": [
+			{
+				"family": "Russel",
+				"given": "Donald"
+			},
+			{
+				"family": "Wilson",
+				"given": "Nigel Guy"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1981"
+				]
+			]
+		}
+	},
+	{
+		"id": "Moss.1996",
+		"type": "book",
+		"event-place": "Oxford",
+		"ISBN": "978-0-19-815908-7",
+		"language": "en-GB",
+		"publisher": "Oxford University Press",
+		"publisher-place": "Oxford",
+		"title": "Printed Commonplace-Books and the Structuring of Renaissance Thought",
+		"author": [
+			{
+				"family": "Moss",
+				"given": "Ann"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1996"
+				]
+			]
+		}
+	},
+	{
+		"id": "Spengel.1856",
+		"type": "book",
+		"event-place": "Leipzig",
+		"language": "de-DE",
+		"publisher": "Teubner",
+		"publisher-place": "Leipzig",
+		"title": "Rhetores Graeci III",
+		"author": [
+			{
+				"family": "Spengel",
+				"given": "Leonhard",
+				"dropping-particle": "von"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1856"
+				]
+			]
+		}
+	},
+	{
+		"id": "Biondo.1927",
+		"type": "book",
+		"collection-title": "Studi e testi",
+		"event-place": "Città del Vaticano",
+		"language": "it-IT",
+		"publisher": "Biblioteca Apostolica Vaticana",
+		"publisher-place": "Città del Vaticano",
+		"title": "Scritti inediti e rari di Flavio Biondo",
+		"volume": "48",
+		"author": [
+			{
+				"family": "Biondo",
+				"given": "Flavio"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1927"
+				]
+			]
+		}
+	},
+	{
+		"id": "Thiering.2015",
+		"type": "book",
+		"event-place": "Berlin; Boston",
+		"language": "en-US",
+		"publisher": "De Gruyter",
+		"publisher-place": "Berlin; Boston",
+		"title": "Spatial Semiotics and Spatial Mental Models: Figure-Ground Asymmetries in Language",
+		"author": [
+			{
+				"family": "Thiering",
+				"given": "Martin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "Ortelius.1570",
+		"type": "book",
+		"event-place": "Antwerpen",
+		"language": "en-GB",
+		"note": "URL: https://archive.org/details/theatrumorbister00orte",
+		"publisher": "Gillis van Coppens Diest",
+		"publisher-place": "Antwerpen",
+		"title": "Theatrum Orbis Terrarum",
+		"URL": "https://bibliotecadigitale.regione.liguria.it/ark:/64639/TO0E032709",
+		"author": [
+			{
+				"family": "Ortelius",
+				"given": "Abraham"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1570"
+				]
+			]
+		}
+	},
+	{
+		"id": "Michalsky.2022",
+		"type": "book",
+		"collection-number": "1",
+		"collection-title": "Hertziana studies in art history",
+		"language": "en-US",
+		"note": "DOI: 10.48431/hsah.0100",
+		"publisher": "Bibliotheca Hertziana - Max Planck Institute for Art History",
+		"title": "Walking through history. An interdisciplinary approach to Flavio Biondo's spaces in the \"Italia Illustrata\"",
+		"editor": [
+			{
+				"family": "Michalsky",
+				"given": "Tanja"
+			},
+			{
+				"family": "Thiering",
+				"given": "Martin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	}
+]
