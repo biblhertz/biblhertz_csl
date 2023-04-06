@@ -1,0 +1,44 @@
+[
+	{
+		"id": "Gorz.2022",
+		"type": "paper-conference",
+		"collection-title": "Hertziana studies in art history",
+		"container-title": "Walking through history. An interdisciplinary approach to Flavio Biondo's spaces in the \"Italia Illustrata\"",
+		"DOI": "10.48431/hsah.0102",
+		"language": "en-US",
+		"note": "tex.xref: Michalsky.2022",
+		"publisher": "Bibliotheca Hertziana - Max Planck Institute for Art History",
+		"title": "Linked biondo: Generating and processing research data based on geographical feature modeling",
+		"author": [
+			{
+				"family": "Görz",
+				"given": "Günther"
+			},
+			{
+				"family": "Seidl",
+				"given": "Chiara"
+			},
+			{
+				"family": "Thiering",
+				"given": "Martin"
+			}
+		],
+		"editor": [
+			{
+				"family": "Michalsky",
+				"given": "Tanja"
+			},
+			{
+				"family": "Thiering",
+				"given": "Martin"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	}
+]

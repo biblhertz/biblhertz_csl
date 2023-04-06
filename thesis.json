@@ -1,0 +1,23 @@
+[
+	{
+		"id": "Spring.1972",
+		"type": "thesis",
+		"genre": "phd",
+		"language": "en-US",
+		"publisher": "University of Edinburgh",
+		"title": "The Topographical and Archaeological Study of the Antiquities of the City of Rome, 1420-1447",
+		"author": [
+			{
+				"family": "Spring",
+				"given": "Peter"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1972"
+				]
+			]
+		}
+	}
+]

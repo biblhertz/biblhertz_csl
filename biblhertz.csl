@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-06T12:08:54+00:00</updated>
+    <updated>2023-04-06T12:35:05+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -30,12 +30,6 @@
   <macro name="publisher">
     <group delimiter=", ">
       <text variable="publisher"/>
-      <text variable="publisher-place"/>
-      <choose>
-        <if match="any" variable="volume">
-          <text variable="volume" prefix="vol. " suffix=" "/>
-        </if>
-      </choose>
     </group>
   </macro>
   <macro name="access">
@@ -64,9 +58,8 @@
   </macro>
   <macro name="title">
     <choose>
-      <if type="report thesis" match="any">
-        <text variable="title" font-style="italic"/>
-        <date date-parts="year" form="text" variable="issued" prefix=" "/>
+      <if type="thesis" match="any">
+        <text variable="title" font-style="italic" prefix="&quot;" suffix="&quot;"/>
       </if>
       <else>
         <text variable="title" prefix="&quot;" suffix="&quot;"/>
@@ -195,13 +188,44 @@
               </group>
             </group>
           </else-if>
+          <else-if type="paper-conference" match="any">
+            <group delimiter=" ">
+              <group delimiter=", ">
+                <group delimiter=" ">
+                  <text term="in" text-case="lowercase"/>
+                  <text variable="container-title" font-style="italic"/>
+                </group>
+                <text macro="edition"/>
+                <text macro="editor"/>
+                <text macro="publisher" prefix=" "/>
+              </group>
+              <group delimiter=" ">
+                <date date-parts="year" form="text" variable="issued" suffix=", "/>
+              </group>
+              <group delimiter=" ">
+                <label strip-periods="true" suffix="." variable="page" form="short"/>
+                <text variable="page" suffix="."/>
+              </group>
+              <group>
+                <text variable="URL" prefix="URL: "/>
+              </group>
+            </group>
+          </else-if>
+          <else-if type="thesis" match="any">
+            <group delimiter=" ">
+              <group delimiter=", ">
+                <text macro="editor"/>
+                <text macro="publisher" prefix=" "/>
+              </group>
+              <date date-parts="year" form="text" variable="issued"/>
+              <group>
+                <text variable="URL"/>
+              </group>
+            </group>
+          </else-if>
           <else>
             <group delimiter=" ">
-              <text variable="container-title" form="short" strip-periods="false" font-style="italic" suffix=" "/>
-              <group delimiter=", ">
-                <text variable="volume" font-weight="bold"/>
-                <text variable="page"/>
-              </group>
+              <text value="This reference type is not currently supported"/>
             </group>
           </else>
         </choose>
