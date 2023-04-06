@@ -1,0 +1,213 @@
+[
+	{
+		"id": "Laureys.2020",
+		"type": "chapter",
+		"collection-title": "Analecta romana instituti danici",
+		"container-title": "Cultural encounter and identity in the neo-latin world",
+		"event-place": "Roma",
+		"ISBN": "978-88-549-1033-1",
+		"language": "en-US",
+		"page": "203-217",
+		"publisher": "Quasar",
+		"publisher-place": "Roma",
+		"title": "Assessing the Influence of Biondo Flavio’s Historical Geography: The Case of the Low Countries",
+		"author": [
+			{
+				"family": "Laureys",
+				"given": "Marc"
+			}
+		],
+		"editor": [
+			{
+				"family": "Horster",
+				"given": "Camilla Plesner"
+			},
+			{
+				"family": "Pade",
+				"given": "Marianne"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2020"
+				]
+			]
+		}
+	},
+	{
+		"id": "Clavuot.2002",
+		"type": "chapter",
+		"container-title": "Diffusion des Humanismus",
+		"event-place": "Göttingen",
+		"ISBN": "3-89244-506-0",
+		"language": "de-DE",
+		"page": "55-76",
+		"publisher": "Wallstein",
+		"publisher-place": "Göttingen",
+		"title": "Flavio Biondos ’Italia illustrata’: Porträt und historisch-geographische Legitimation der humanistischen Elite Italiens",
+		"author": [
+			{
+				"family": "Clavuot",
+				"given": "Ottavio"
+			}
+		],
+		"editor": [
+			{
+				"family": "Helmrath",
+				"given": "Johannes"
+			},
+			{
+				"family": "Muhlack",
+				"given": "Ulrich"
+			},
+			{
+				"family": "Walther",
+				"given": "Gerrit"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2002"
+				]
+			]
+		}
+	},
+	{
+		"id": "Laureys.2016",
+		"type": "chapter",
+		"collection-title": "Supplementa humanistica lovaniensia",
+		"container-title": "A new sense of the past",
+		"event-place": "Leuven",
+		"ISBN": "978-94-6166-191-3",
+		"language": "en-US",
+		"note": "DOI: 10.2307/j.ctt1dnnc53.9",
+		"page": "133-149",
+		"publisher": "Leuven University Press",
+		"publisher-place": "Leuven",
+		"title": "Johannes Hinderbach’s Notes on Biondo Flavio’s Roma instaurata",
+		"author": [
+			{
+				"family": "Laureys",
+				"given": "Marc"
+			}
+		],
+		"editor": [
+			{
+				"family": "Mazzocco",
+				"given": "Angelo"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "Defilippis.2012",
+		"type": "chapter",
+		"collection-title": "Acta Conventus Neo-Latini",
+		"container-title": "Acta Conventus Neo-Latini Upsaliensis",
+		"event-place": "Tempe",
+		"ISBN": "978-90-04-22743-9",
+		"language": "it-IT",
+		"note": "DOI: 10.1163/9789004227439_003",
+		"page": "25-79",
+		"publisher-place": "Tempe",
+		"title": "Modelli e forme del genere corografico tra Umanesimo e Rinascimento",
+		"author": [
+			{
+				"family": "Defilippis",
+				"given": "Domenico"
+			}
+		],
+		"editor": [
+			{
+				"family": "Steiner-Weber",
+				"given": "Astrid"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "Laureys.2019",
+		"type": "chapter",
+		"collection-title": "Morphomata",
+		"container-title": "Monumenta Illustrata",
+		"event-place": "Paderborn",
+		"ISBN": "978-3-7705-6427-9",
+		"language": "de-DE",
+		"page": "71-90",
+		"publisher": "Wilhelm Fink, Brill Deutschland",
+		"publisher-place": "Paderborn",
+		"title": "Raum und Geschichte in Biondo Flavios wissenschaftlichem Œuvre",
+		"author": [
+			{
+				"family": "Laureys",
+				"given": "Marc"
+			}
+		],
+		"editor": [
+			{
+				"family": "Boschung",
+				"given": "Dietrich"
+			},
+			{
+				"family": "Schäfer",
+				"given": "Alfred"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "Czapla.2005",
+		"type": "chapter",
+		"collection-title": "Pontes",
+		"container-title": "Die antike Rhetorik in der europäischen Geistesgeschichte",
+		"event-place": "Innsbruck",
+		"language": "de-DE",
+		"page": "214-234",
+		"publisher": "Studien Verlag",
+		"publisher-place": "Innsbruck",
+		"title": "Übersetzungen und Kommentare der Aphthonischen Progymnasmata vom 15. bis zum 18. Jahrhundert: Die Rezeption eines spätantiken Schulbuchs im Spannungsfeld von Theorie und Praxis, von Dialektik und Rhetorik",
+		"author": [
+			{
+				"family": "Czapla",
+				"given": "Beate"
+			}
+		],
+		"editor": [
+			{
+				"family": "Kofler",
+				"given": "Wolfgang"
+			},
+			{
+				"family": "Töchterle",
+				"given": "Karlheinz"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2005"
+				]
+			]
+		}
+	}
+]

@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-06T11:39:36+00:00</updated>
+    <updated>2023-04-06T12:08:54+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -166,6 +166,29 @@
               <group delimiter=" ">
                 <label strip-periods="true" suffix="." variable="page" form="short"/>
                 <text variable="page"/>
+              </group>
+              <group>
+                <text variable="URL" prefix="URL: "/>
+              </group>
+            </group>
+          </else-if>
+          <else-if type="chapter" match="any">
+            <group delimiter=" ">
+              <group delimiter=", ">
+                <group delimiter=" ">
+                  <text term="in" text-case="lowercase"/>
+                  <text variable="container-title" font-style="italic"/>
+                </group>
+                <text macro="edition"/>
+                <text macro="editor"/>
+                <text macro="publisher" prefix=" "/>
+              </group>
+              <group delimiter=" ">
+                <date date-parts="year" form="text" variable="issued" suffix=","/>
+              </group>
+              <group delimiter=" ">
+                <label strip-periods="true" suffix="." variable="page" form="short"/>
+                <text variable="page" suffix="."/>
               </group>
               <group>
                 <text variable="URL" prefix="URL: "/>
