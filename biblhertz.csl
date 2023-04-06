@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-06T09:58:43+00:00</updated>
+    <updated>2023-04-06T11:10:59+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -29,6 +29,11 @@
   </macro>
   <macro name="publisher">
     <group delimiter=", ">
+      <choose>
+        <if match="any" variable="volume">
+          <text variable="volume" prefix="Vol. " suffix=","/>
+        </if>
+      </choose>
       <text variable="publisher"/>
       <text variable="publisher-place"/>
     </group>
@@ -143,11 +148,6 @@
             <text macro="edition" prefix=" " suffix=","/>
             <text macro="publisher" prefix=" " suffix="."/>
             <date date-parts="year" form="text" variable="issued"/>
-            <choose>
-              <if match="any" variable="volume">
-                <text variable="volume" prefix="Vol."/>
-              </if>
-            </choose>
           </if>
           <else-if type="chapter paper-conference article-journal article article-magazine article-newspaper" match="any">
             <group delimiter=" ">
