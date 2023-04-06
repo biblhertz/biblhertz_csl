@@ -1,3 +1,134 @@
+AboutSearch by nameSearch by exampleVisual editorCode editor
+FORMATTED INLINE CITATIONS
+Mares 2001
+Borges 1999, Isaacson 2011
+FORMATTED BIBLIOGRAPHY
+Jorge Luis Borges, "Selected non-fictions". 3rd ed., Viking, New York, NY, 1999.
+Walter Isaacson, "Steve Jobs". Simon & Schuster, New York, NY, 2011.
+Isabela Mares, "Firms and the welfare state: When, why, and how does social policy matter to employers?". in: Varieties of capitalism. The institutional foundations of comparative advantage, eds. P.A. Hall and D. Soskice, Oxford University Press, New York, 2001 pp 184–213
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" delimiter-precedes-last="never" default-locale="en-GB">
   <info>
@@ -10,7 +141,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-06T09:06:18+00:00</updated>
+    <updated>2023-04-06T09:17:00+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -31,7 +162,7 @@
     <group delimiter=", ">
       <text variable="publisher"/>
       <text variable="publisher-place"/>
-      <date date-parts="year" form="text" variable="issued" suffix=","/>
+      <date date-parts="year" form="text" variable="issued"/>
     </group>
   </macro>
   <macro name="access">
@@ -121,62 +252,3 @@
       <key macro="author"/>
     </sort>
     <layout delimiter=", ">
-      <group delimiter=":">
-        <group delimiter=" ">
-          <text macro="contributors-short"/>
-          <text macro="date-reference"/>
-        </group>
-        <text macro="point-locators"/>
-      </group>
-    </layout>
-  </citation>
-  <bibliography and="text" et-al-min="12" et-al-use-first="6">
-    <sort>
-      <key macro="author"/>
-      <key variable="issued" sort="ascending"/>
-    </sort>
-    <layout>
-      <group delimiter=" ">
-        <text macro="author"/>
-        <text macro="title" suffix="."/>
-        <choose>
-          <if type="bill book graphic legal_case motion_picture report song" match="any">
-            <text macro="edition" prefix=" " suffix=","/>
-            <text macro="publisher" prefix=" " suffix="."/>
-          </if>
-          <else-if type="chapter paper-conference article-journal article article-magazine article-newspaper" match="any">
-            <group delimiter=" ">
-              <group delimiter=", ">
-                <group delimiter=": ">
-                  <text term="in" text-case="lowercase"/>
-                  <text variable="container-title" font-style="italic"/>
-                </group>
-                <text variable="volume"/>
-                <text macro="edition"/>
-                <text macro="editor"/>
-                <text macro="publisher" prefix=" "/>
-              </group>
-              <group delimiter=" ">
-                <label strip-periods="true" variable="page" form="short"/>
-                <text variable="page"/>
-              </group>
-              <group>
-                <text variable="URL" prefix="URL: "/>
-              </group>
-            </group>
-          </else-if>
-          <else>
-            <group delimiter=" ">
-              <text variable="container-title" form="short" strip-periods="false" font-style="italic" suffix=" "/>
-              <group delimiter=", ">
-                <text variable="volume" font-weight="bold"/>
-                <text variable="page"/>
-              </group>
-            </group>
-          </else>
-        </choose>
-      </group>
-      <text macro="access"/>
-    </layout>
-  </bibliography>
-</style>
