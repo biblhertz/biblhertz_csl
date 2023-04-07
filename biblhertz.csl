@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-07T07:44:29+00:00</updated>
+    <updated>2023-04-07T08:17:25+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -156,7 +156,7 @@
               <text variable="page"/>
             </group>
             <group>
-              <text variable="URL" prefix=" "/>
+              <text variable="URL" prefix="URL: "/>
             </group>
           </if>
           <else-if type="article-journal" match="any">
@@ -174,9 +174,9 @@
                 <date date-parts="year" form="text" variable="issued" prefix="(" suffix="),"/>
               </group>
               <group delimiter=" ">
-              	<label strip-periods="true" suffix="." variable="volume" form="short"/>
-              	<text variable="volume"/>
-            </group>
+                <label strip-periods="true" suffix="." variable="volume" form="short"/>
+                <text variable="volume"/>
+              </group>
               <group delimiter=" ">
                 <label strip-periods="true" suffix="." variable="page" form="short"/>
                 <text variable="page"/>
@@ -196,8 +196,8 @@
                 <text macro="edition"/>
                 <text macro="editor"/>
                 <group>
-              		<text variable="number-of-volumes" form="short" suffix=" vols.,"/>
-            	</group>
+                  <text variable="number-of-volumes" form="short" suffix=" vols.,"/>
+                </group>
                 <text macro="publisher" prefix=" "/>
               </group>
               <group delimiter=" ">
@@ -222,8 +222,8 @@
                 <text macro="edition"/>
                 <text macro="editor"/>
                 <group>
-              		<text variable="number-of-volumes" form="short" suffix=" vols.,"/>
-            	</group>
+                  <text variable="number-of-volumes" form="short" suffix=" vols.,"/>
+                </group>
                 <text macro="publisher" prefix=" "/>
               </group>
               <group delimiter=" ">
@@ -241,13 +241,16 @@
           <else-if type="thesis" match="any">
             <group delimiter=" ">
               <group delimiter=", ">
-                <text macro="editor"/>
+                <group>
+                	<text value="Ph.D Thesis"/>
+              	</group>
                 <text macro="publisher" prefix=" "/>
               </group>
               <date date-parts="year" form="text" variable="issued"/>
               <group>
-                <text variable="URL"/>
+                <text variable="URL" prefix=" URL: "/>
               </group>
+              
             </group>
           </else-if>
           <else>
