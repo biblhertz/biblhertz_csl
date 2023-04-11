@@ -1,0 +1,166 @@
+[
+	{
+		"id": "Muecke.2011",
+		"type": "article-journal",
+		"container-title": "Papers of the British School at Rome",
+		"DOI": "10.1017/S0068246211000079",
+		"ISSN": "0068-2462",
+		"issue": "79",
+		"language": "en-GB",
+		"note": "number: 79",
+		"page": "275-298",
+		"title": "Ante Oculos Ponere: Vision and Imagination in Flavio Biondo’s Roma Triumphans",
+		"author": [
+			{
+				"family": "Muecke",
+				"given": "Frances"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "Dalche.2012",
+		"type": "article-journal",
+		"container-title": "Archives d’histoire doctrinale et littéraire du Moyen Age",
+		"issue": "79",
+		"language": "fr-FR",
+		"note": "number: 79",
+		"page": "161-191",
+		"title": "De Pétrarque à Raimondo Marliano: Aux origines de la géographie historique",
+		"author": [
+			{
+				"family": "Dalché",
+				"given": "Patrick Gautier"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "Castner.1998",
+		"type": "article-journal",
+		"container-title": "Medievalia et humanistica",
+		"language": "en-GB",
+		"page": "93-108",
+		"title": "Direct Observation and Biondo Flavio’s Additions to Italia Illustrata: The Case of Ocriculum",
+		"volume": "N.S. 25",
+		"author": [
+			{
+				"family": "Castner",
+				"given": "Catherine J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1998"
+				]
+			]
+		}
+	},
+	{
+		"id": "Blusch.1979b",
+		"type": "article-journal",
+		"container-title": "Humanistica Lovaniensia",
+		"language": "de-DE",
+		"page": "78-138",
+		"title": "Enea Silvio Piccolomini und Giannantonio Campano: Die unterschiedlichen Darstellungsprinzipien in ihren Türkenreden",
+		"URL": "https://www.jstor.org/stable/23973509",
+		"volume": "28",
+		"author": [
+			{
+				"family": "Blusch",
+				"given": "Jürgen"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1979"
+				]
+			]
+		}
+	},
+	{
+		"id": "Besse.2004",
+		"type": "article-journal",
+		"container-title": "Écrire l’histoire",
+		"DOI": "10.4000/elh.923",
+		"language": "fr-FR",
+		"page": "137-146",
+		"title": "Historiae oculus geographia: Cartographie et histoire dans le Parergon d’Ortelius",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Besse",
+				"given": "Jean-Marc"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		}
+	},
+	{
+		"id": "Stenhouse.2012",
+		"type": "article-journal",
+		"container-title": "Papers of the British School at Rome",
+		"ISSN": "0068-2462",
+		"issue": "80",
+		"language": "en-US",
+		"note": "number: 80",
+		"page": "233-256",
+		"title": "Panvinio and Descriptio: Renditions of History and Antiquity in the Late Renaissance",
+		"author": [
+			{
+				"family": "Stenhouse",
+				"given": "William"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "Blusch.1983",
+		"type": "article-journal",
+		"container-title": "Humanistica Lovaniensia",
+		"issue": "32",
+		"language": "de-DE",
+		"note": "number: 32\ntex.pagination: page",
+		"page": "75–106",
+		"title": "Zur Rezeption der Germania des Tacitus bei Giannantonio Campano und Enea Silvio Piccolomini",
+		"URL": "https://www.jstor.org/stable/23974244",
+		"author": [
+			{
+				"family": "Blusch",
+				"given": "Jürgen"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1983"
+				]
+			]
+		}
+	}
+]
