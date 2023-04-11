@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-11T09:38:07+00:00</updated>
+    <updated>2023-04-11T09:43:37+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -61,13 +61,13 @@
     </choose>
   </macro>
   <macro name="title">
-    <group suffix=",">
+    <group prefix="&quot;" suffix="&quot;,">
       <choose>
         <if type="book" match="any">
           <text variable="title" font-style="italic"/>
         </if>
         <else>
-          <text variable="title"/>
+          <text variable="title" font-style="normal"/>
         </else>
       </choose>
     </group>
@@ -141,7 +141,7 @@
     <layout>
       <group delimiter=" ">
         <text macro="author"/>
-        <text macro="title" suffix="."/>
+        <text macro="title"/>
         <choose>
           <if type="book" match="any">
             <group>
@@ -181,7 +181,7 @@
               </group>
               <group delimiter=" ">
                 <label strip-periods="true" suffix="." variable="volume" form="short"/>
-                <text variable="volume"/>
+                <text variable="volume" suffix=", "/>
               </group>
               <group delimiter=" ">
                 <label strip-periods="true" suffix="." variable="page" form="short"/>
