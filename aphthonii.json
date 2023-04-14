@@ -1,0 +1,25 @@
+[
+	{
+		"id": "Aphthonius.1926",
+		"type": "book",
+		"collection-title": "Rhetores Graeci",
+		"event-place": "Leipzig",
+		"language": "de-DE",
+		"publisher": "Teubner",
+		"publisher-place": "Leipzig",
+		"title": "Aphthonii Progymnasmata",
+		"volume": "10",
+		"author": [
+			{
+				"literal": "Aphthonius"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1926"
+				]
+			]
+		}
+	}
+]

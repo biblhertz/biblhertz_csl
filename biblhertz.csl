@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-11T12:49:41+00:00</updated>
+    <updated>2023-04-14T06:46:32+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -24,7 +24,7 @@
   <macro name="editor">
     <names variable="editor">
       <label form="short" plural="never" text-case="lowercase" suffix=" "/>
-      <name suffix=", " sort-separator=" "/>
+      <name sort-separator=" "/>
     </names>
   </macro>
   <macro name="publisher">
@@ -71,7 +71,7 @@
         </if>
         <else>
           <group prefix="&quot;" suffix="&quot;,">
-          	<text variable="title" font-style="normal"/>
+            <text variable="title" font-style="normal"/>
           </group>
         </else>
       </choose>
@@ -208,7 +208,7 @@
           </else-if>
           <else-if type="chapter" match="any">
             <group delimiter=" ">
-              <group delimiter=", ">
+              <group>
                 <group delimiter=" ">
                   <text term="in" text-case="lowercase"/>
                   <text variable="container-title" font-style="italic"/>
