@@ -60,7 +60,7 @@
     <group>
       <choose>
         <if type="book" match="any">
-          <group prefix="&quot;" suffix="&quot;,">
+          <group>
             <text variable="title" form="short" font-style="italic"/>
           </group>
           <group delimiter="; ">
