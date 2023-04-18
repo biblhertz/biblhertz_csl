@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-18T09:13:26+00:00</updated>
+    <updated>2023-04-18T09:30:32+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -70,8 +70,8 @@
           </group>
         </if>
         <else>
-          <group prefix="&quot;" suffix="&quot;,">
-            <text variable="title" font-style="normal"/>
+          <group suffix=",">
+            <text variable="title" quotes="true" font-style="normal"/>
           </group>
         </else>
       </choose>
