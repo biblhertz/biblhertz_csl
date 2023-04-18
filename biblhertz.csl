@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-18T09:58:26+00:00</updated>
+    <updated>2023-04-18T10:01:43+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -201,7 +201,7 @@
                 <text variable="page" suffix="."/>
               </group>
               <group>
-                <text variable="URL" prefix="URL: "/>
+                <text variable="URL" prefix="URL: " suffix=" ."/>
               </group>
             </group>
           </else-if>
@@ -267,7 +267,7 @@
               </group>
               <date date-parts="year" form="text" variable="issued" suffix="."/>
               <group>
-                <text variable="URL" prefix=" URL: "/>
+                <text variable="URL" prefix=" URL: " suffix=" ."/>
               </group>
             </group>
           </else-if>
