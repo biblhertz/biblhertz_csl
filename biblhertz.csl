@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-18T08:50:46+00:00</updated>
+    <updated>2023-04-18T09:08:05+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -102,8 +102,7 @@
   </macro>
   <macro name="contributors-short">
     <names variable="author">
-      <name form="short" and="text" delimiter=", "/>
-      <et-al font-style="italic"/>
+      <name form="short" delimiter="/" sort-separator=""/>
       <substitute>
         <text macro="title"/>
       </substitute>
@@ -124,7 +123,7 @@
       </else>
     </choose>
   </macro>
-  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
+  <citation disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
     <sort>
       <key variable="issued" sort="ascending"/>
       <key macro="author"/>
