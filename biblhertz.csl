@@ -182,7 +182,7 @@
               <text variable="page"/>
             </group>
             <group>
-              <text variable="URL" prefix="URL: " suffix=" ."/>
+              <text variable="URL" prefix="URL: " suffix="."/>
             </group>
           </if>
           <else-if type="article-journal" match="any">
@@ -210,7 +210,7 @@
                 <text variable="page" suffix="."/>
               </group>
               <group>
-                <text variable="URL" prefix="URL: " suffix=" ."/>
+                <text variable="URL" prefix="URL: " suffix="."/>
               </group>
             </group>
           </else-if>
@@ -236,7 +236,7 @@
                 <text variable="page" suffix="."/>
               </group>
               <group>
-                <text variable="URL" prefix="URL: "/>
+                <text variable="URL" prefix="URL: " suffix="."/>
               </group>
             </group>
           </else-if>
@@ -262,7 +262,7 @@
                 <text variable="page" suffix="."/>
               </group>
               <group>
-                <text variable="URL" prefix="URL: "/>
+                <text variable="URL" prefix="URL: " suffix="."/>
               </group>
             </group>
           </else-if>
@@ -276,7 +276,7 @@
               </group>
               <date date-parts="year" form="text" variable="issued" suffix="."/>
               <group>
-                <text variable="URL" prefix=" URL: " suffix=" ."/>
+                <text variable="URL" prefix=" URL: " suffix="."/>
               </group>
             </group>
           </else-if>
