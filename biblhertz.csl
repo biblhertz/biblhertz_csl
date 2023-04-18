@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-14T06:54:30+00:00</updated>
+    <updated>2023-04-18T08:36:28+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="author">
@@ -23,7 +23,7 @@
   </macro>
   <macro name="editor">
     <names variable="editor" suffix=", ">
-      <label form="short" plural="never" text-case="lowercase" suffix=" "/>
+      <label form="short" plural="never" text-case="lowercase" prefix=" " suffix=" "/>
       <name sort-separator=" "/>
     </names>
   </macro>
@@ -168,7 +168,7 @@
               <label strip-periods="true" suffix="." variable="volume" form="short"/>
               <text variable="volume" suffix=","/>
             </group>
-            <date date-parts="year" form="text" variable="issued"/>
+            <date date-parts="year" form="text" variable="issued" suffix="."/>
             <group delimiter=" ">
               <label strip-periods="true" suffix="." variable="page" form="short"/>
               <text variable="page"/>
