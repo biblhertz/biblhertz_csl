@@ -71,7 +71,7 @@
         </if>
         <else>
           <group suffix=",">
-            <text variable="title" quotes="false" font-style="normal" prefix="&amp;#8220;" suffix="&amp;#8221;"/>
+            <text variable="title" quotes="false" font-style="normal" prefix="&#8220;" suffix="&#8221;"/>
           </group>
         </else>
       </choose>
