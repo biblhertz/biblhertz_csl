@@ -10,7 +10,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-04-18T13:08:01+00:00</updated>
+    <updated>2023-04-19T07:37:44+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -178,7 +178,7 @@
             </group>
             <date date-parts="year" form="text" variable="issued" suffix="."/>
             <group delimiter=" ">
-              <label strip-periods="true" suffix="." variable="page" form="short"/>
+              <label strip-periods="true" suffix=". " variable="page" form="short"/>
               <text variable="page"/>
             </group>
             <group>
@@ -189,24 +189,24 @@
             <group delimiter=" ">
               <group delimiter=", ">
                 <group delimiter=": ">
-                  <text variable="container-title" font-style="italic"/>
+                  <text variable="container-title" font-style="italic" suffix=", "/>
                 </group>
                 <text macro="edition"/>
                 <text macro="editor"/>
                 <text macro="publisher" prefix=" "/>
               </group>
               <group delimiter=" ">
-                <date date-parts="year" form="text" variable="issued" prefix="(" suffix="),"/>
-              </group>
-              <group delimiter=" ">
                 <label strip-periods="true" suffix="." variable="volume" form="short"/>
                 <text variable="volume" suffix=", "/>
               </group>
               <group delimiter=" ">
-                <text variable="issue" prefix="Issue " suffix=", "/>
+                <text variable="issue" prefix="" suffix=", "/>
+              </group>
+              <group delimiter=" ">
+                <date date-parts="year" form="text" variable="issued" prefix="(" suffix="),"/>
               </group>
               <group>
-                <label strip-periods="true" suffix="." variable="page" form="short"/>
+                <label strip-periods="true" suffix=". " variable="page" form="short"/>
                 <text variable="page" suffix="."/>
               </group>
               <group>
@@ -219,20 +219,21 @@
               <group>
                 <group delimiter=" ">
                   <text term="in" text-case="lowercase"/>
-                  <text variable="container-title" font-style="italic"/>
+                  <text variable="container-title" font-style="italic" suffix=","/>
                 </group>
                 <text macro="edition"/>
                 <text macro="editor"/>
                 <group>
                   <text variable="number-of-volumes" form="short" suffix=" vols.,"/>
                 </group>
-                <text macro="publisher" prefix=" "/>
+                <text macro="publisher" prefix=" " suffix=","/>
               </group>
               <group delimiter=" ">
+                <text variable="publisher-place" suffix=","/>
                 <date date-parts="year" form="text" variable="issued" suffix=","/>
               </group>
               <group>
-                <label strip-periods="true" suffix="." variable="page" form="short"/>
+                <label strip-periods="true" suffix=". " variable="page" form="short"/>
                 <text variable="page" suffix="."/>
               </group>
               <group>
@@ -258,7 +259,7 @@
                 <date date-parts="year" form="text" variable="issued" suffix=", "/>
               </group>
               <group delimiter=" ">
-                <label strip-periods="true" suffix="." variable="page" form="short"/>
+                <label strip-periods="true" suffix=". " variable="page" form="short"/>
                 <text variable="page" suffix="."/>
               </group>
               <group>
