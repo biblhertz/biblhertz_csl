@@ -6,6 +6,7 @@
     <id>http://www.zotero.org/styles/bibliotheca-hertziana-max-planck-institute-for-art-history</id>
     <link href="http://www.zotero.org/styles/bibliotheca-hertziana-max-planck-institute-for-art-history" rel="self"/>
     <link href="http://www.zotero.org/styles/bmj" rel="template"/>
+	<link href="https://www.biblhertz.it/3170244/rjbh_editorial_guidelines_en.pdf" rel="documentation" />
     <author>
       <name>Chris Tomlinson</name>
     </author>
