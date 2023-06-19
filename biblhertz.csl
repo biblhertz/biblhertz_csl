@@ -152,6 +152,24 @@
     </layout>
   </citation>
   <bibliography and="text" et-al-min="12" et-al-use-first="6">
+  <group display="block">
+      <sort>
+        <key variable="issued" sort="ascending"/>
+        <key macro="author"/>
+      </sort>
+      <layout delimiter=", ">
+        <group delimiter=":">
+          <group delimiter=" ">
+            <text macro="contributors-short"/>
+            <group delimiter="; ">
+              <text variable="dimensions" prefix="(" suffix=")"/>
+            </group>
+            <text macro="date-reference"/>
+          </group>
+          <text macro="point-locators"/>
+        </group>
+      </layout>
+    </group>
     <sort>
       <key macro="author"/>
       <key variable="issued" sort="ascending"/>
