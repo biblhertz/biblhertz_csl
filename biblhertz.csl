@@ -11,7 +11,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-05-16T09:44:03+00:00</updated>
+    <updated>2023-06-20T08:54:55+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -112,7 +112,15 @@
   </macro>
   <macro name="contributors-short">
     <names variable="author">
-      <name form="short" delimiter="/" sort-separator=""/>
+      <name form="short" delimiter=" / " sort-separator=""/>
+      <substitute>
+        <text macro="title"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="contributors-short-2">
+    <names variable="author">
+      <name form="short" delimiter=" / " and="" delimiter-precedes-last="always"/>
       <substitute>
         <text macro="title"/>
       </substitute>
@@ -152,15 +160,15 @@
     </layout>
   </citation>
   <bibliography and="text" et-al-min="12" et-al-use-first="6">
-  <group display="block">
+    <group display="block">
       <sort>
-        <key variable="issued" sort="ascending"/>
+        <key variable="author" sort="ascending"/>
         <key macro="author"/>
       </sort>
       <layout delimiter=", ">
         <group delimiter=":">
           <group delimiter=" ">
-            <text macro="contributors-short"/>
+            <text macro="contributors-short-2"/>
             <group delimiter="; ">
               <text variable="dimensions" prefix="(" suffix=")"/>
             </group>
@@ -170,10 +178,6 @@
         </group>
       </layout>
     </group>
-    <sort>
-      <key macro="author"/>
-      <key variable="issued" sort="ascending"/>
-    </sort>
     <layout>
       <group delimiter=" ">
         <text macro="author"/>
