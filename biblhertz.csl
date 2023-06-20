@@ -11,7 +11,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-06-20T10:45:36+00:00</updated>
+    <updated>2023-06-20T10:46:09+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -114,7 +114,9 @@
     <names variable="author">
       <name form="short" delimiter=" / " sort-separator=""/>
       <substitute>
-        <text macro="title"/>
+       <group>
+          <text variable="title" form="short" font-style="italic" suffix=", "/>
+        </group>
       </substitute>
     </names>
   </macro>
