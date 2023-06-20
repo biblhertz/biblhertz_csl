@@ -112,16 +112,6 @@
   </macro>
   <macro name="contributors-short">
     <names variable="author">
-      <name form="short" delimiter=" / " sort-separator=""/>
-      <substitute>
-       <group>
-          <text variable="title" form="short" font-style="italic" suffix=", "/>
-        </group>
-      </substitute>
-    </names>
-  </macro>
-  <macro name="contributors-short-2">
-    <names variable="author">
       <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" and="" et-al-min="4" et-al-use-first="1"/>
       <substitute>
         <group>
@@ -172,7 +162,7 @@
       <layout delimiter=", ">
         <group delimiter=":">
           <group delimiter=" ">
-            <text macro="contributors-short-2"/>
+            <text macro="contributors-short"/>
             <group delimiter="; ">
               <text variable="dimensions" prefix="(" suffix=")"/>
             </group>
