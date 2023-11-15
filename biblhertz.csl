@@ -159,7 +159,7 @@
       <key macro="author"/>
     </sort>
     <layout>
-      <group delimiter=":">
+      <group delimiter=":" display="block">
         <group delimiter=" ">
           <group>
             <text macro="contributors-short"/>
@@ -168,7 +168,6 @@
             <text variable="dimensions" prefix="(" suffix=")"/>
           </group>
           <text macro="date-reference" suffix=" "/>
-          <group display="block"/>
         </group>
         <text macro="point-locators"/>
       </group>
