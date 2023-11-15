@@ -11,7 +11,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-06-20T11:59:58+00:00</updated>
+    <updated>2023-11-15T12:37:10+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -112,7 +112,7 @@
   </macro>
   <macro name="contributors-short">
     <names variable="author">
-      <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always"  et-al-min="4" et-al-use-first="1"/>
+      <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
       <substitute>
         <group>
           <text variable="title" form="short" font-style="italic" suffix=", "/>
@@ -127,7 +127,7 @@
           <date-part name="year"/>
         </date>
         <date variable="issued">
-          <date-part name="year"/>
+          <date-part name="year" suffix="&amp;#10;"/>
         </date>
       </if>
       <else>
@@ -154,21 +154,21 @@
     </layout>
   </citation>
   <bibliography and="text" et-al-min="12" et-al-use-first="6">
-	<sort>
-        <key variable="author" sort="ascending"/>
-        <key macro="author"/>
-     </sort>
-      <layout>
-        <group delimiter=":">
-          <group delimiter=" ">
-            <text macro="contributors-short"/>
-            <group delimiter="; ">
-              <text variable="dimensions" prefix="(" suffix=")"/>
-            </group>
-            <text macro="date-reference"/>
+    <sort>
+      <key variable="author" sort="ascending"/>
+      <key macro="author"/>
+    </sort>
+    <layout>
+      <group delimiter=":">
+        <group delimiter=" ">
+          <text macro="contributors-short"/>
+          <group delimiter="; ">
+            <text variable="dimensions" prefix="(" suffix=")"/>
           </group>
-          <text macro="point-locators"/>
+          <text macro="date-reference"/>
         </group>
+        <text macro="point-locators"/>
+      </group>
       <group delimiter=" ">
         <text macro="author"/>
         <text macro="title"/>
@@ -316,6 +316,6 @@
         </choose>
       </group>
       <text macro="access"/>
-</layout>
+    </layout>
   </bibliography>
 </style>
