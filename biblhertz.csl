@@ -104,7 +104,7 @@
     <choose>
       <if match="none" variable="author title-short">
         <names variable="editor">
-          <name form="short" delimiter="/ " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
+          <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
         </names>
       </if>
       <else>
