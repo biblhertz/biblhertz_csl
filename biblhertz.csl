@@ -102,6 +102,11 @@
       <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
       <substitute>
           <text variable="title" form="short" font-style="italic" suffix=", "/>
+		  <substitute>
+			<names variable="editor">
+				<name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
+			</name>
+		  </substitute>
       </substitute>
     </names>
   </macro>
