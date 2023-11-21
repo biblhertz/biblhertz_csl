@@ -20,7 +20,6 @@
       <term name="close-quote">”</term>
       <term name="open-inner-quote">‘</term>
       <term name="close-inner-quote">’</term>
-      <term name="page-range-delimiter">–</term>
     </terms>
   </locale>
   <macro name="author">
@@ -38,9 +37,7 @@
     </names>
   </macro>
   <macro name="publisher">
-    <group>
-      <text variable="publisher"/>
-    </group>
+    <text variable="publisher"/>
   </macro>
   <macro name="access">
     <choose>
@@ -58,15 +55,13 @@
         </group>
       </if>
     </choose>
-    <text variable="DOI" text-case="lowercase" prefix=" DOI: https://doi.org/"/>
+	<text variable="DOI" text-case="lowercase" prefix=" DOI: https://doi.org/"/>
   </macro>
   <macro name="title">
     <group>
       <choose>
         <if type="book" match="any">
-          <group>
-            <text variable="title" font-style="italic" suffix=", "/>
-          </group>
+          <text variable="title" font-style="italic" suffix=", "/>
           <group delimiter="; ">
             <date variable="original-date" prefix=" (" suffix="), ">
               <date-part name="year"/>
@@ -74,9 +69,7 @@
           </group>
         </if>
         <else>
-          <group suffix=",">
-            <text variable="title" quotes="true" font-style="normal"/>
-          </group>
+            <text variable="title" suffix="," quotes="true" font-style="normal"/>
         </else>
       </choose>
     </group>
@@ -108,9 +101,7 @@
     <names variable="author">
       <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
       <substitute>
-        <group>
           <text variable="title" form="short" font-style="italic" suffix=", "/>
-        </group>
       </substitute>
     </names>
   </macro>
@@ -138,9 +129,6 @@
       <group delimiter=":">
         <group delimiter=" ">
           <text macro="contributors-short"/>
-          <group delimiter="; ">
-            <text variable="dimensions" prefix="(" suffix=")"/>
-          </group>
           <text macro="date-reference"/>
         </group>
         <text macro="point-locators"/>
@@ -155,12 +143,7 @@
     <layout>
       <group delimiter=":" display="block">
         <group delimiter=" ">
-          <group>
-            <text macro="contributors-short"/>
-          </group>
-          <group delimiter="; ">
-            <text variable="dimensions" prefix="(" suffix=")"/>
-          </group>
+          <text macro="contributors-short"/>
           <text macro="date-reference" suffix=" "/>
         </group>
         <text macro="point-locators"/>
@@ -208,19 +191,13 @@
                 <label strip-periods="true" suffix="." variable="volume" form="short"/>
                 <text variable="volume" suffix=", "/>
               </group>
-              <group delimiter=" ">
                 <text variable="issue" prefix="" suffix=", "/>
-              </group>
-              <group delimiter=" ">
                 <date date-parts="year" form="text" variable="issued" prefix="(" suffix="),"/>
-              </group>
               <group>
                 <label strip-periods="true" suffix=". " variable="page" form="short"/>
                 <text variable="page" suffix="."/>
               </group>
-              <group>
                 <text variable="URL" prefix="URL: " suffix="."/>
-              </group>
             </group>
           </else-if>
           <else-if type="chapter" match="any">
@@ -232,9 +209,7 @@
                 </group>
                 <text macro="edition"/>
                 <text macro="editor"/>
-                <group>
-                  <text variable="number-of-volumes" form="short" suffix=" vols.,"/>
-                </group>
+                <text variable="number-of-volumes" form="short" suffix=" vols.,"/>
                 <text macro="publisher" prefix=" " suffix=","/>
               </group>
               <group delimiter=" ">
@@ -245,9 +220,7 @@
                 <label strip-periods="true" suffix=". " variable="page" form="short"/>
                 <text variable="page" suffix="."/>
               </group>
-              <group>
                 <text variable="URL" prefix="URL: " suffix="."/>
-              </group>
             </group>
           </else-if>
           <else-if type="paper-conference" match="any">
@@ -259,55 +232,41 @@
                 </group>
                 <text macro="edition"/>
                 <text macro="editor"/>
-                <group>
-                  <text variable="number-of-volumes" form="short" suffix=" vols.,"/>
-                </group>
+                <text variable="number-of-volumes" form="short" suffix=" vols.,"/>
                 <text macro="publisher" prefix=" "/>
               </group>
-              <group delimiter=" ">
                 <date date-parts="year" form="text" variable="issued" suffix=", "/>
-              </group>
               <group delimiter=" ">
                 <label strip-periods="true" suffix=". " variable="page" form="short"/>
                 <text variable="page" suffix="."/>
               </group>
-              <group>
                 <text variable="URL" prefix="URL: " suffix="."/>
-              </group>
             </group>
           </else-if>
           <else-if type="thesis" match="any">
             <group delimiter=" ">
               <group delimiter=", ">
-                <group>
-                  <text value="Ph.D Thesis"/>
-                </group>
+                <text value="Ph.D Thesis"/>
                 <text macro="publisher" prefix=" "/>
               </group>
               <date date-parts="year" form="text" variable="issued" suffix="."/>
-              <group>
                 <text variable="URL" prefix=" URL: " suffix="."/>
-              </group>
             </group>
           </else-if>
           <else-if type="manuscript" match="any">
             <group delimiter=" ">
               <group delimiter=", ">
-                <group>
-                  <text value="Manuscript"/>
-                </group>
+                <text value="Manuscript"/>
                 <text macro="publisher" prefix=" "/>
               </group>
               <date date-parts="year" form="text" variable="issued" suffix="."/>
-              <group>
-                <text variable="URL" prefix=" URL: " suffix="."/>
-              </group>
+              <text variable="URL" prefix=" URL: " suffix="."/>
             </group>
           </else-if>
           <else>
-            <group delimiter=" ">
-              <text value="This reference type is not currently supported"/>
-            </group>
+             <text macro="publisher" prefix=" "/>
+			 <date date-parts="year" form="text" variable="issued" suffix="."/>
+             <text variable="URL" prefix=" URL: " suffix="."/>
           </else>
         </choose>
       </group>
