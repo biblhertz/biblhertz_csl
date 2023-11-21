@@ -11,7 +11,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-11-21T14:43:58+00:00</updated>
+    <updated>2023-11-21T15:02:18+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -101,17 +101,21 @@
     </group>
   </macro>
   <macro name="contributors-short">
-    <names variable="author">
+    <choose>
+      <if match="none" variable="author title-short">
+        <names variable="editor">
+          <name form="short" delimiter="/ " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
+        </names>
+      </if>
+      <else>
+      	<names variable="author">
       <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
       <substitute>
-        <text variable="title" form="short" font-style="italic" suffix=", "/>
-        <substitute>
-          <names variable="editor">
-            <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
-          </names>
-        </substitute>
+        <text variable="title-short"/>
       </substitute>
     </names>
+    </else>
+    </choose> 
   </macro>
   <macro name="date-reference">
     <choose>
