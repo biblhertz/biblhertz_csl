@@ -11,7 +11,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-11-21T15:02:18+00:00</updated>
+    <updated>2023-11-22T14:07:22+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -108,14 +108,14 @@
         </names>
       </if>
       <else>
-      	<names variable="author">
-      <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
-      <substitute>
-        <text variable="title-short"/>
-      </substitute>
-    </names>
-    </else>
-    </choose> 
+        <names variable="author">
+          <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
+          <substitute>
+            <text variable="title-short"/>
+          </substitute>
+        </names>
+      </else>
+    </choose>
   </macro>
   <macro name="date-reference">
     <choose>
@@ -177,12 +177,12 @@
               <text variable="publisher-place" suffix=","/>
             </group>
             <group delimiter=" ">
-              <label strip-periods="true" suffix="." variable="volume" form="short"/>
+              <label suffix="." variable="volume" form="short"/>
               <text variable="volume" suffix=","/>
             </group>
             <date date-parts="year" form="text" variable="issued" suffix="."/>
             <group delimiter=" ">
-              <label strip-periods="true" suffix=". " variable="page" form="short"/>
+              <label suffix=" " variable="page" form="short"/>
               <text variable="page"/>
             </group>
             <group>
@@ -200,13 +200,13 @@
                 <text macro="publisher" prefix=" "/>
               </group>
               <group delimiter=" ">
-                <label strip-periods="true" suffix="." variable="volume" form="short"/>
+                <label variable="volume" form="short"/>
                 <text variable="volume" suffix=", "/>
               </group>
               <text variable="issue" prefix="" suffix=", "/>
               <date date-parts="year" form="text" variable="issued" prefix="(" suffix="),"/>
               <group>
-                <label strip-periods="true" suffix=". " variable="page" form="short"/>
+                <label suffix=". " variable="page" form="short"/>
                 <text variable="page" suffix="."/>
               </group>
               <text variable="URL" prefix="URL: " suffix="."/>
@@ -229,7 +229,7 @@
                 <date date-parts="year" form="text" variable="issued" suffix=","/>
               </group>
               <group>
-                <label strip-periods="true" suffix=". " variable="page" form="short"/>
+                <label suffix=" " variable="page" form="short"/>
                 <text variable="page" suffix="."/>
               </group>
               <text variable="URL" prefix="URL: " suffix="."/>
@@ -249,7 +249,7 @@
               </group>
               <date date-parts="year" form="text" variable="issued" suffix=", "/>
               <group delimiter=" ">
-                <label strip-periods="true" suffix=". " variable="page" form="short"/>
+                <label suffix=" " variable="page" form="short"/>
                 <text variable="page" suffix="."/>
               </group>
               <text variable="URL" prefix="URL: " suffix="."/>
@@ -268,8 +268,8 @@
           <else-if type="manuscript" match="any">
             <group delimiter=" ">
               <group delimiter=", ">
-                <text value="Manuscript"/>
                 <text macro="publisher" prefix=" "/>
+                <text term="manuscript" text-case="capitalize-first"/>
               </group>
               <date date-parts="year" form="text" variable="issued" suffix="."/>
               <text variable="URL" prefix=" URL: " suffix="."/>
