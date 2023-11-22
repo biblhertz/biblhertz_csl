@@ -11,7 +11,7 @@
       <name>Chris Tomlinson</name>
     </author>
     <category citation-format="author-date"/>
-    <updated>2023-11-22T15:35:39+00:00</updated>
+    <updated>2023-11-22T16:18:36+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
@@ -33,7 +33,7 @@
   <macro name="editor">
     <names variable="editor" suffix=", ">
       <label form="short" plural="never" text-case="lowercase" prefix=" " suffix=" "/>
-      <name sort-separator=" "/>
+      <name and="text" et-al-min="4" et-al-use-first="1" sort-separator=" "/>
     </names>
   </macro>
   <macro name="publisher">
