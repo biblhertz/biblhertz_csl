@@ -231,6 +231,7 @@
                 <text variable="page" suffix="."/>
               </group>
               <text variable="URL" prefix="URL: " suffix="."/>
+			  <text variable="DOI" text-case="lowercase" prefix=" DOI: https://doi.org/"/>
             </group>
           </else-if>
           <else-if type="paper-conference" match="any">
