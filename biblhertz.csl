@@ -175,8 +175,6 @@
               <text macro="edition" prefix=" " suffix=", "/>
               <text macro="publisher" prefix=" " suffix=","/>
               <text variable="publisher-place" suffix=","/>
-            </group>
-            <group delimiter=" ">
               <label suffix="." variable="volume" form="short"/>
               <text variable="volume" suffix=","/>
             </group>
