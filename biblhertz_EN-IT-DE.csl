@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" delimiter-precedes-last="never" et-al-min="4" et-al-use-first="1" demote-non-dropping-particle="sort-only">
+    <info>
+        <title>Bibliotheca Hertziana - Max Planck Institute for Art History</title>
+        <title-short>BH</title-short>
+        <id>http://www.zotero.org/styles/bibliotheca-hertziana-max-planck-institute-for-art-history</id>
+        <link href="http://www.zotero.org/styles/bibliotheca-hertziana-max-planck-institute-for-art-history" rel="self"/>
+        <link href="http://www.zotero.org/styles/bmj" rel="template"/>
+        <link href="https://www.biblhertz.it/3170244/rjbh_editorial_guidelines_en.pdf" rel="documentation"/>
+        <author>
+            <name>Chris Tomlinson</name>
+        </author>
+        <category citation-format="note"/>
+        <updated>2025-03-14T20:24:36+00:00</updated>
+        <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+    </info>
+
+    <locale xml:lang="en">
+        <terms>
+            <term name="open-quote">"</term>
+            <term name="close-quote">"</term>
+            <term name="open-inner-quote">'</term>
+            <term name="close-inner-quote">'</term>
+            <term name="editor" form="short">ed.</term>
+            <term name="translator" form="short">trans.</term>
+            <term name="editortranslator" form="short">ed. and trans. by</term>
+            <term name="and">and</term>
+            <term name="et-al">et al.</term>
+            <term name="ibid">ibid.</term>
+            <term name="page" form="short">
+                <single>p.</single>
+                <multiple>pp.</multiple>
+            </term>
+            <term name="volume" form="short">
+                <single>vol.</single>
+                <multiple>vols.</multiple>
+            </term>
+            <term name="edition" form="short">
+                <single>ed.</single>
+                <multiple>eds.</multiple>
+            </term>
+            <term name="no date" form="short">n.d.</term>
+            <term name="anonymous" form="short">n.a.</term>
+            <term name="no-place" form="short">n.p.</term>
+            <term name="paragraph" form="short">
+                <single>para.</single>
+                <multiple>paras.</multiple>
+            </term>
+            <term name="in">in</term>
+            <term name="accessed">accessed</term>
+            <term name="figure" form="short">
+                <single>fig.</single>
+                <multiple>figs.</multiple>
+            </term>
+            <term name="column" form="short">
+                <single>col.</single>
+                <multiple>cols.</multiple>
+            </term>
+            <term name="manuscript" form="short">
+                <single>MS</single>
+                <multiple>MSS</multiple>
+            </term>
+            <term name="chapter" form="short">
+                <single>ch.</single>
+                <multiple>chs.</multiple>
+            </term>
+            <term name="circa" form="short">ca.</term>
+            <term name="cited" form="short">cit.</term>
+            <term name="folio" form="short">
+                <single>fol.</single>
+                <multiple>fols.</multiple>
+            </term>
+            <term name="number" form="short">
+                <single>no.</single>
+                <multiple>nos.</multiple>
+            </term>
+            <term name="line" form="short">
+                <single>l.</single>
+                <multiple>ll.</multiple>
+            </term>
+            <term name="sub-verbo" form="short">s.v.</term>
+            <term name="table" form="short">
+                <single>tab.</single>
+                <multiple>tabs.</multiple>
+            </term>
+            <term name="supplement" form="short">suppl.</term>
+        </terms>
+        <date form="text">
+            <date-part name="day" suffix="."/>
+            <date-part name="month" form="numeric" suffix="."/>
+            <date-part name="year"/>
+        </date>
+    </locale>
+    <locale xml:lang="de">
+    <terms>
+        <term name="open-quote">»</term>
+        <term name="close-quote">«</term>
+        <term name="open-inner-quote">'</term>
+        <term name="close-inner-quote">'</term>
+        <term name="editor" form="short">hg. v.</term>
+        <term name="translator" form="short">übers. v.</term>
+        <term name="editortranslator" form="short">hg. u. übers. v.</term>
+        <term name="and">u.</term>
+        <term name="et-al">et al.</term>
+        <term name="ibid">ibid.</term>
+        <term name="page" form="short">
+            <single>S.</single>
+            <multiple>S.</multiple>
+        </term>
+        <term name="volume" form="short">
+            <single>Bd.</single>
+            <multiple>Bde.</multiple>
+        </term>
+        <term name="edition" form="short">
+            <single>Aufl.</single>
+            <multiple>Aufl.</multiple>
+        </term>
+        <term name="no date" form="short">o.J.</term>
+        <term name="anonymous" form="short">o.V.</term>
+        <term name="no-place" form="short">o.O.</term>
+        <term name="paragraph" form="short">
+            <single>Abs.</single>
+            <multiple>Abs.</multiple>
+        </term>
+        <term name="in">in</term>
+        <term name="accessed">Stand</term>
+        <term name="figure" form="short">
+            <single>Abb.</single>
+            <multiple>Abb.</multiple>
+        </term>
+        <term name="column" form="short">
+            <single>Sp.</single>
+            <multiple>Sp.</multiple>
+        </term>
+        <term name="manuscript" form="short">
+            <single>Ms.</single>
+            <multiple>Mss.</multiple>
+        </term>
+        <term name="chapter" form="short">
+            <single>Kap.</single>
+            <multiple>Kap.</multiple>
+        </term>
+        <term name="circa" form="short">ca.</term>
+        <term name="cited" form="short">zit.</term>
+        <term name="folio" form="short">
+            <single>fol.</single>
+            <multiple>fol.</multiple>
+        </term>
+        <term name="number" form="short">
+            <single>Nr.</single>
+            <multiple>Nr.</multiple>
+        </term>
+        <term name="line" form="short">
+            <single>Z.</single>
+            <multiple>Z.</multiple>
+        </term>
+        <term name="sub-verbo" form="short">s.v.</term>
+        <term name="table" form="short">
+            <single>Tab.</single>
+            <multiple>Tab.</multiple>
+        </term>
+        <term name="supplement" form="short">Suppl.</term>
+    </terms>
+    <date form="text">
+        <date-part name="day" suffix="."/>
+        <date-part name="month" form="numeric" suffix="."/>
+        <date-part name="year"/>
+    </date>
+</locale>
+    <locale xml:lang="it">
+        <terms>
+            <term name="open-quote">«</term>
+            <term name="close-quote">»</term>
+            <term name="open-inner-quote">'</term>
+            <term name="close-inner-quote">'</term>
+            <term name="editor" form="short">a cura di</term>
+            <term name="translator" form="short">trad.</term>
+            <term name="editortranslator" form="short">a cura di e trad. da</term>
+            <term name="and">e</term>
+            <term name="et-al">et al.</term>
+            <term name="ibid">ibid.</term>
+            <term name="page" form="short">
+                <single>p.</single>
+                <multiple>pp.</multiple>
+            </term>
+            <term name="volume" form="short">
+                <single>vol.</single>
+                <multiple>voll.</multiple>
+            </term>
+            <term name="edition" form="short">
+                <single>ed.</single>
+                <multiple>edd.</multiple>
+            </term>
+            <term name="no date" form="short">s.d.</term>
+            <term name="anonymous" form="short">s.a.</term>
+            <term name="no-place" form="short">s.l.</term>
+            <term name="paragraph" form="short">
+                <single>par.</single>
+                <multiple>parr.</multiple>
+            </term>
+            <term name="in">in</term>
+            <term name="accessed">accesso</term>
+            <term name="figure" form="short">
+                <single>fig.</single>
+                <multiple>figg.</multiple>
+            </term>
+            <term name="column" form="short">
+                <single>col.</single>
+                <multiple>coll.</multiple>
+            </term>
+            <term name="manuscript" form="short">
+                <single>ms.</single>
+                <multiple>mss.</multiple>
+            </term>
+            <term name="chapter" form="short">
+                <single>cap.</single>
+                <multiple>capp.</multiple>
+            </term>
+            <term name="circa" form="short">ca.</term>
+            <term name="cited" form="short">cit.</term>
+            <term name="document" form="short">
+                <single>doc.</single>
+                <multiple>docc.</multiple>
+            </term>
+            <term name="folio" form="short">
+                <single>fol.</single>
+                <multiple>foll.</multiple>
+            </term>
+            <term name="number" form="short">
+                <single>n.</single>
+                <multiple>nn.</multiple>
+            </term>
+            <term name="line" form="short">
+                <single>r.</single>
+                <multiple>rr.</multiple>
+            </term>
+            <term name="sub-verbo" form="short">s.v.</term>
+            <term name="table" form="short">
+                <single>tab.</single>
+                <multiple>tabb.</multiple>
+            </term>
+            <term name="supplement" form="short">suppl.</term>
+        </terms>
+        <date form="text">
+            <date-part name="day" suffix="."/>
+            <date-part name="month" form="numeric" suffix="."/>
+            <date-part name="year"/>
+        </date>
+    </locale>
+    <macro name="author">
+        <names variable="author">
+            <name and="text" initialize="false" initialize-with=".">
+                <name-part name="given"/>
+                <name-part name="family"/>
+            </name>
+        </names>
+    </macro>
+    <macro name="editor">
+        <names variable="editor" suffix=", ">
+            <label form="short" plural="never" text-case="lowercase" prefix=" " suffix=" "/>
+            <name and="text" et-al-min="4" et-al-use-first="1" sort-separator=" "/>
+        </names>
+    </macro>
+    <macro name="publisher">
+        <text variable="publisher"/>
+    </macro>
+    <macro name="access">
+        <choose>
+            <if type="webpage post post-weblog" match="any">
+                <group delimiter=". ">
+                    <text variable="URL" prefix="URL: "/>
+                    <group>
+                        <text term="accessed" text-case="capitalize-first" suffix=" "/>
+                        <date variable="accessed">
+                            <date-part name="day" suffix="."/>
+                            <date-part name="month" form="numeric" suffix="."/>
+                            <date-part name="year"/>
+                        </date>
+                    </group>
+                </group>
+            </if>
+        </choose>
+        <text variable="DOI" text-case="lowercase" prefix=" DOI: https://doi.org/"/>
+    </macro>
+    <macro name="title">
+        <group>
+            <choose>
+                <if type="book" match="any">
+                    <text variable="title" font-style="italic" suffix=", "/>
+                    <group delimiter="; ">
+                        <date variable="original-date" prefix=" (" suffix="), ">
+                            <date-part name="year"/>
+                        </date>
+                    </group>
+                </if>
+                <else-if type="manuscript thesis" match="any">
+                    <text variable="title" font-style="italic"/>
+                </else-if>
+                <else>
+                    <text variable="title" suffix="," quotes="true" font-style="normal"/>
+                </else>
+            </choose>
+        </group>
+    </macro>
+    <macro name="edition">
+        <choose>
+            <if is-numeric="edition">
+                <group delimiter=" ">
+                    <number variable="edition" form="ordinal"/>
+                    <text term="edition" form="short"/>
+                </group>
+            </if>
+            <else>
+                <text variable="edition" suffix="."/>
+            </else>
+        </choose>
+    </macro>
+    <macro name="point-locators">
+        <group>
+            <choose>
+                <if locator="page" match="none">
+                    <label variable="locator" form="short" suffix=" "/>
+                </if>
+            </choose>
+            <text variable="locator"/>
+        </group>
+    </macro>
+    <macro name="contributors-short">
+        <choose>
+            <if match="none" variable="author title-short">
+                <names variable="editor">
+                    <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
+                </names>
+            </if>
+            <else>
+                <names variable="author">
+                    <name form="short" delimiter=" / " delimiter-precedes-et-al="never" delimiter-precedes-last="always" et-al-min="4" et-al-use-first="1"/>
+                    <substitute>
+                        <text variable="title-short"/>
+                    </substitute>
+                </names>
+            </else>
+        </choose>
+    </macro>
+    <macro name="date-reference">
+        <choose>
+            <if variable="issued">
+                <date variable="original-date" prefix=" (" suffix=") ">
+                    <date-part name="year"/>
+                </date>
+                <date variable="issued">
+                    <date-part name="year"/>
+                </date>
+            </if>
+            <else>
+                <text term="no date" form="short"/>
+            </else>
+        </choose>
+    </macro>
+    <macro name="volumes">
+        <choose>
+            <if variable="number-of-volumes">
+                <group delimiter=" ">
+                    <text variable="number-of-volumes"/>
+                    <text term="volume" form="short"/>
+                </group>
+            </if>
+        </choose>
+    </macro>
+    <citation disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true">
+        <sort>
+            <key variable="issued" sort="ascending"/>
+            <key macro="author"/>
+        </sort>
+        <layout delimiter="; ">
+            <group delimiter=", ">
+                <group delimiter=" ">
+                    <text macro="contributors-short"/>
+                    <text macro="date-reference"/>
+                </group>
+                <text macro="point-locators"/>
+            </group>
+        </layout>
+    </citation>
+    <bibliography et-al-min="4" et-al-use-first="1">
+        <sort>
+            <key variable="author" sort="ascending"/>
+            <key macro="author"/>
+        </sort>
+        <layout>
+            <group delimiter=":" display="block">
+                <group delimiter=" ">
+                    <text macro="contributors-short"/>
+                    <text macro="date-reference" suffix=" "/>
+                </group>
+                <text macro="point-locators"/>
+            </group>
+            <group delimiter=" ">
+                <text macro="author" suffix=", "/>
+                <text macro="title"/>
+                <choose>
+                    <if type="book" match="any">
+                        <group>
+                            <text macro="editor"/>
+                            <text variable="number-of-volumes" form="short" suffix=" voll.,"/>
+                        </group>
+                        <group delimiter=" ">
+                            <text variable="collection-title" suffix=","/>
+                            <text variable="collection-number" suffix=","/>
+                            <text macro="edition" prefix=" " suffix=", "/>
+                            <text variable="publisher-place" suffix=" "/>
+                        </group>
+                        <date date-parts="year" form="text" variable="issued" suffix="."/>
+                    </if>
+                    <else-if type="article-journal" match="any">
+                        <group delimiter=" ">
+                            <group delimiter=", ">
+                                <group delimiter=": ">
+                                    <text variable="container-title" font-style="italic" suffix=", "/>
+                                </group>
+                                <text macro="edition"/>
+                                <text macro="editor"/>
+                            </group>
+                            <group delimiter=" ">
+                                <text variable="volume" suffix=","/>
+                            </group>
+                            <text variable="issue" prefix="" suffix=", "/>
+                            <date date-parts="year" form="text" variable="issued" prefix="(" suffix="),"/>
+                            <group>
+                                <label suffix=" " variable="page" form="short"/>
+                                <text variable="page" suffix="."/>
+                            </group>
+                        </group>
+                    </else-if>
+                    <else-if type="chapter" match="any">
+                        <group delimiter=" ">
+                            <group>
+                                <group delimiter=" ">
+                                    <text term="in" text-case="lowercase"/>
+                                    <text variable="container-title" font-style="italic" suffix=","/>
+                                </group>
+                                <text macro="edition"/>
+                                <text macro="editor"/>
+                                <text variable="number-of-volumes" form="short" suffix=" voll.,"/>
+                            </group>
+                            <group delimiter=" ">
+                                <text variable="publisher-place" suffix=" "/>
+                                <date date-parts="year" form="text" variable="issued" suffix=","/>
+                            </group>
+                            <group>
+                                <label suffix=" " variable="page" form="short"/>
+                                <text variable="page" suffix="."/>
+                            </group>
+                        </group>
+                    </else-if>
+                    <else-if type="paper-conference" match="any">
+                        <group delimiter=" ">
+                            <group>
+                                <group delimiter=" ">
+                                    <text term="in" text-case="lowercase"/>
+                                    <text variable="container-title" font-style="italic" suffix=","/>
+                                    <text value="atti del convegno" suffix=" "/>
+                                    <text variable="event-place" suffix=" "/>
+                                    <date variable="event-date" suffix="),">
+                                        <date-part name="year"/>
+                                    </date>
+                                </group>
+                                <text macro="edition"/>
+                                <text macro="editor"/>
+                                <text variable="number-of-volumes" form="short" suffix=" voll.,"/>
+                            </group>
+                            <group delimiter=" ">
+                                <text variable="publisher-place" suffix=" "/>
+                                <date date-parts="year" form="text" variable="issued" suffix=","/>
+                            </group>
+                            <group>
+                                <label suffix=" " variable="page" form="short"/>
+                                <text variable="page" suffix="."/>
+                            </group>
+                        </group>
+                    </else-if>
+                    <else-if type="thesis" match="any">
+                        <group delimiter=" ">
+                            <group delimiter=", ">
+                                <text value="Tesi di dottorato"/>
+                                <text variable="publisher-place" prefix=" "/>
+                            </group>
+                            <date date-parts="year" form="text" variable="issued" suffix="."/>
+                        </group>
+                    </else-if>
+                    <else-if type="manuscript" match="any">
+                        <group delimiter=" ">
+                            <group delimiter=", ">
+                                <text variable="publisher-place" prefix=" "/>
+                                <text term="manuscript" text-case="capitalize-first"/>
+                            </group>
+                            <date date-parts="year" form="text" variable="issued" suffix="."/>
+                        </group>
+                    </else-if>
+                    <else>
+                        <text variable="publisher-place" prefix=" "/>
+                        <date date-parts="year" form="text" variable="issued" suffix="."/>
+                    </else>
+                </choose>
+            </group>
+            <text macro="access"/>
+        </layout>
+    </bibliography>
+</style>
